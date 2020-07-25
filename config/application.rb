@@ -10,7 +10,7 @@ module Chatspace
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
-    confing.generators do |g|
+    config.generators do |g|
       g.stylesheets false
       g.javascripts false
       g.helper false
@@ -22,3 +22,4 @@ module Chatspace
     # the framework and any gems in your application.
   end
 end
+
